@@ -1,0 +1,32 @@
+# --- Python Core ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Distribution & Build ---
+dist/
+build/
+*.egg-info/
+*.pyc
+
+# --- Environment ---
+.env
+.env.local
+venv/
+.venv
+.env.*.local
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-*
+
+# --- OS Artifacts ---
+.DS_Store
+Thumbs.db
+
+# --- Test project ---
+project/
